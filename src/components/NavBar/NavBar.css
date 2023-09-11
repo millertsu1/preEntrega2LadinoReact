@@ -1,0 +1,11 @@
+.customNavbar {
+    background-color: #E5E5CB; 
+    display: flex; 
+    box-shadow: 5px 5px 15px black;
+    position: sticky;
+    
+}
+.logo{
+    width: 150px;
+    border-radius: 0;
+}

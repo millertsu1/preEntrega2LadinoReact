@@ -1,0 +1,15 @@
+.contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 800px;
+  }
+
+@media (max-width: 768px) {
+  .contenedorProductos {
+
+    height: auto;
+  }
+}

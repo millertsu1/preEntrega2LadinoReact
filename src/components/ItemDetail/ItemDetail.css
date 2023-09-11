@@ -1,0 +1,48 @@
+.contenedorItem {
+    width: 900px;
+    text-align: center;
+  
+    border-radius: 30px;
+    margin: 3rem auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .contenedorItem p {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  img {
+    width: 300px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+  
+  .tarjeta {
+    cursor: pointer;
+    background: #3C2A21;
+    color: #E5E5CB;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 1px black;
+  }
+  
+  @media (max-width: 1295px) {
+    .contenedorItem {
+      width: 80%;
+      margin: 3rem auto;
+      padding: 20px;
+    }
+  
+    .contenedorItem p {
+      margin: 20px;
+    }
+  
+    img {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
