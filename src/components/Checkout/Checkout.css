@@ -1,0 +1,13 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    color: #E5E5CB;
+}
+
+.ultimoBoton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

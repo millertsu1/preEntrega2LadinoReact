@@ -1,0 +1,14 @@
+.carrito {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 610px;
+    color: #E5E5CB;
+}
+.botonFinal {
+    margin-bottom: 30px;
+}
+.totales{
+    
+}

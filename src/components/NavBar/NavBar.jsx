@@ -18,6 +18,9 @@ const NavBar = () => {
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav" className="justify-content-between">
         <Nav>
+        <Nav.Link as={NavLink} to="/AboutUs" activeClassName="activeLink">
+            Nosotros
+          </Nav.Link>
           <Nav.Link as={NavLink} to="/categoria/1" activeClassName="activeLink">
             Libros
           </Nav.Link>
